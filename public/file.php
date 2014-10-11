@@ -31,7 +31,6 @@ function parsesite($body){
 function makeTwiml($data)
     {
     $xml= new Services_Twilio_Twiml();
-    $var=10;
 
  
     $xml->sms(substr($data,0,1600));
